@@ -1,0 +1,116 @@
+
+html ,body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 445px;
+  width: 360px;
+  background-color: #3B3939;
+}
+.header{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 4px;
+}
+.header-nav{
+  width: 121px;
+  height: 41px;
+  font-size: 15px;
+  font-weight:bolder;
+  color: #AB05E5;
+  margin: 10px 10px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.header-img img{
+  width: 45px;
+  height:45px;
+  margin: 8px auto;
+  display: block;
+}
+.btn-search{
+  background-color: #D9D9D9;
+  width: 35px;
+  height: 35px;
+  background-size: cover;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -12px;
+  padding: 15px;
+  border-radius: 0px 10px 10px 0px;
+  cursor: pointer;
+
+
+}
+.btn-search img{
+  width: 20px;
+  height: 20px;
+
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px auto;
+  
+  width: 314px;
+  height: 38px;
+  margin-left: 23px;
+}
+.input{
+  width: 300px;
+  height: 35px;
+  border: none;
+  border-radius: 10px 0px 0px 10px;
+  padding: 0 10px;
+  font-size: 14px;
+  font-weight: bolder;
+  background-color: #D9D9D9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.input:focus{
+  outline: none;
+
+}
+.ans{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 232px;
+  border-radius: 12px;
+  margin: 15px auto;
+  display: block;
+  padding: 10px;
+}
+.ans{
+  background-color: rgb(241, 240, 240);
+  cursor: pointer;
+}
+
+.genimg, .genimg img{
+  width: 232px;
+  height: 232px;
+  border-radius: 12px;
+  margin: 15px auto;
+  display: block;
+  cursor: pointer;
+}
+.defimg{
+  width: 232px;
+  height: 232px;
+  border-radius: 12px;
+  margin: 15px auto;
+  display: block;
+  background-color: #5D5C5C;
+}
